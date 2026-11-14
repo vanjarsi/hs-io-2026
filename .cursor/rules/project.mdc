@@ -1,0 +1,8 @@
+---
+alwaysApply: true
+---
+- Python 3, Streamlit app, pandas + plotly.
+- Keep code simple and readable; we must explain it to judges.
+- app.py = UI only. data.py = loading/cleaning. analysis.py = models/insights.
+- Never hardcode API keys; load from .env with python-dotenv.
+- Prefer small, working steps over big rewrites.
