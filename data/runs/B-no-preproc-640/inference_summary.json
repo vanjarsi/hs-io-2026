@@ -1,0 +1,12 @@
+{
+  "framework": "yolo",
+  "task": "segment",
+  "model": "/job/model.pt",
+  "data": "/job/images",
+  "device": "cuda",
+  "conf_threshold": 0.25,
+  "total_images": 777,
+  "total_predictions": 11594,
+  "avg_predictions_per_image": 14.92,
+  "timestamp": "2026-11-15T16:44:44.885103"
+}

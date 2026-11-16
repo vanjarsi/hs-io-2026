@@ -219,3 +219,22 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 .DS_Store
+# Hackathon handouts: keep local only. tapis-user-list.xlsx holds other
+# participants' names/emails and must never be pushed.
+hackathon/
+ICICLE Challenge_ AI for Science.pdf
+*.xlsx
+.playwright-mcp/
+
+# Model weights (download separately)
+models/
+*.pt
+*.onnx
+
+# Other teams' decks (contain their names/emails) and event handouts: local only.
+*.pptx
+OH_IO x ICICLE Evaluation Rubric.pdf
+# Local backups and env files
+*.bak
+*.pre-light
+.env

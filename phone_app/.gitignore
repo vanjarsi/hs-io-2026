@@ -1,0 +1,9 @@
+# Model weights are not committed (ask before changing this).
+models/
+*.pt
+*.onnx
+.venv/
+node_modules/
+__pycache__/
+parity/app_results.json
+.bin/

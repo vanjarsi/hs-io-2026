@@ -1,0 +1,88 @@
+{
+  "model_file": "model.onnx",
+  "model_bytes": 5858134,
+  "model_sha256": "8832cff9664adb933660608ebb73456280857664cad85ae2c07e30f60ffcdb67",
+  "model_name": "YOLO11n-seg",
+  "task": "segment",
+  "precision": "fp16",
+  "fallback_model_file": "model_fp32.onnx",
+  "fallback_model_bytes": 11687765,
+  "fallback_precision": "fp32",
+  "classes": [
+    {
+      "id": 0,
+      "name": "apple_scab",
+      "label": "Apple scab",
+      "color": "#56B4E9"
+    },
+    {
+      "id": 1,
+      "name": "black_rot",
+      "label": "Black rot",
+      "color": "#CC79A7"
+    },
+    {
+      "id": 2,
+      "name": "spot",
+      "label": "Cedar apple rust",
+      "color": "#E69F00"
+    }
+  ],
+  "imgsz": 640,
+  "conf": 0.3,
+  "iou": 0.7,
+  "max_det": 300,
+  "mask_threshold": 0.5,
+  "pad_value": 114,
+  "input": {
+    "name": "images",
+    "shape": [
+      1,
+      3,
+      640,
+      640
+    ],
+    "dtype": "float32",
+    "layout": "NCHW",
+    "color": "RGB",
+    "scale": "1/255"
+  },
+  "outputs": [
+    {
+      "name": "output0",
+      "shape": [
+        1,
+        39,
+        8400
+      ]
+    },
+    {
+      "name": "output1",
+      "shape": [
+        1,
+        32,
+        160,
+        160
+      ]
+    }
+  ],
+  "phone_photo": {
+    "match_training_resolution": true,
+    "center_crop_square": true,
+    "train_image_px": 256
+  },
+  "source_model": "models/runB_best.pt",
+  "source_sha256": "55a61b9d34aa7e46ac4ec987d0b218711b069fb647cd1f495629c2765570c29a",
+  "training_run": "Workflow Studio run #31",
+  "train_args": {
+    "epochs": 20,
+    "batch": 16,
+    "imgsz": 640,
+    "seed": 42
+  },
+  "params": 2849953,
+  "gflops": 9.7,
+  "opset": 17,
+  "ultralytics_version": "8.4.184",
+  "export_date": "2026-11-15T12:57:31-05:00"
+}

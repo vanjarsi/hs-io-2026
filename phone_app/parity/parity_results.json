@@ -1,0 +1,485 @@
+{
+  "imgsz": 640,
+  "conf": 0.3,
+  "iou": 0.7,
+  "pt": "runB_best.pt",
+  "model_sha256": "8832cff9664adb933660608ebb73456280857664cad85ae2c07e30f60ffcdb67",
+  "ultralytics_version": "8.4.184",
+  "app_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/158.0.0.0 Safari/537.36",
+  "app_model_info": {
+    "bytes": 5858134,
+    "file": "model.onnx",
+    "precision": "fp16",
+    "downloadMs": 65.20500001311302,
+    "initMs": 1103.7100000083447,
+    "createMs": 730.0699999928474,
+    "warmupMs": 285.94499999284744,
+    "backend": "wasm",
+    "threads": 4,
+    "engine": "worker",
+    "outputs": [
+      {
+        "name": "output0",
+        "shape": [
+          1,
+          39,
+          8400
+        ]
+      },
+      {
+        "name": "output1",
+        "shape": [
+          1,
+          32,
+          160,
+          160
+        ]
+      }
+    ],
+    "inputName": "images",
+    "note": null
+  },
+  "all_pass": true,
+  "images": {
+    "healthy_1.jpg": {
+      "image": "healthy_1.jpg",
+      "source_image": "0098dbd9-286a-4d6a-bf4b-5459d66f88c0___RS_HL 5776.JPG",
+      "true_spots": 0,
+      "counts": {
+        "ultralytics_pt": 0,
+        "onnx_python": 0,
+        "app_browser": 0,
+        "studio_annotations": 0
+      },
+      "app_vs_ultralytics": {
+        "n_a": 0,
+        "n_b": 0,
+        "matched": 0,
+        "mean_mask_iou": null,
+        "mean_abs_conf_diff": null,
+        "max_abs_conf_diff": null,
+        "classes_a": [],
+        "classes_b": []
+      },
+      "app_vs_onnx_python": {
+        "n_a": 0,
+        "n_b": 0,
+        "matched": 0,
+        "mean_mask_iou": null,
+        "mean_abs_conf_diff": null,
+        "max_abs_conf_diff": null,
+        "classes_a": [],
+        "classes_b": []
+      },
+      "onnx_python_vs_ultralytics": {
+        "n_a": 0,
+        "n_b": 0,
+        "matched": 0,
+        "mean_mask_iou": null,
+        "mean_abs_conf_diff": null,
+        "max_abs_conf_diff": null,
+        "classes_a": [],
+        "classes_b": []
+      },
+      "app_timing_ms": {
+        "tensorMs": 14.6,
+        "inferMs": 122.2,
+        "postMs": 0.8,
+        "preMs": 16.2,
+        "drawMs": 0.1,
+        "totalMs": 139.6
+      },
+      "app_vs_studio_annotations": {
+        "n_a": 0,
+        "n_b": 0,
+        "matched": 0,
+        "mean_mask_iou": null,
+        "mean_abs_conf_diff": null,
+        "max_abs_conf_diff": null,
+        "classes_a": [],
+        "classes_b": []
+      },
+      "pass": true
+    },
+    "scab_1.jpg": {
+      "image": "scab_1.jpg",
+      "source_image": "6639559d-7af6-40b0-9677-a8dcfe036435___FREC_Scab 3342.JPG",
+      "true_spots": 11,
+      "counts": {
+        "ultralytics_pt": 11,
+        "onnx_python": 11,
+        "app_browser": 11,
+        "studio_annotations": 11
+      },
+      "app_vs_ultralytics": {
+        "n_a": 11,
+        "n_b": 11,
+        "matched": 11,
+        "mean_mask_iou": 0.9978,
+        "mean_abs_conf_diff": 0.0014,
+        "max_abs_conf_diff": 0.0047,
+        "classes_a": [
+          0
+        ],
+        "classes_b": [
+          0
+        ]
+      },
+      "app_vs_onnx_python": {
+        "n_a": 11,
+        "n_b": 11,
+        "matched": 11,
+        "mean_mask_iou": 0.9982,
+        "mean_abs_conf_diff": 0.0012,
+        "max_abs_conf_diff": 0.0039,
+        "classes_a": [
+          0
+        ],
+        "classes_b": [
+          0
+        ]
+      },
+      "onnx_python_vs_ultralytics": {
+        "n_a": 11,
+        "n_b": 11,
+        "matched": 11,
+        "mean_mask_iou": 0.9996,
+        "mean_abs_conf_diff": 0.0004,
+        "max_abs_conf_diff": 0.0016,
+        "classes_a": [
+          0
+        ],
+        "classes_b": [
+          0
+        ]
+      },
+      "app_timing_ms": {
+        "tensorMs": 5.8,
+        "inferMs": 111.4,
+        "postMs": 0.4,
+        "preMs": 7.1,
+        "drawMs": 2.3,
+        "totalMs": 121.7
+      },
+      "app_vs_studio_annotations": {
+        "n_a": 11,
+        "n_b": 11,
+        "matched": 11,
+        "mean_mask_iou": 0.9979,
+        "mean_abs_conf_diff": 0.0014,
+        "max_abs_conf_diff": 0.0047,
+        "classes_a": [
+          0
+        ],
+        "classes_b": [
+          0
+        ]
+      },
+      "pass": true
+    },
+    "black_rot_1.jpg": {
+      "image": "black_rot_1.jpg",
+      "source_image": "497e0a24-9a4e-4ace-8aa3-d60751b03abe___JR_FrgE.S 8794.JPG",
+      "true_spots": 10,
+      "counts": {
+        "ultralytics_pt": 9,
+        "onnx_python": 9,
+        "app_browser": 9,
+        "studio_annotations": 9
+      },
+      "app_vs_ultralytics": {
+        "n_a": 9,
+        "n_b": 9,
+        "matched": 9,
+        "mean_mask_iou": 0.9973,
+        "mean_abs_conf_diff": 0.0004,
+        "max_abs_conf_diff": 0.0011,
+        "classes_a": [
+          1
+        ],
+        "classes_b": [
+          1
+        ]
+      },
+      "app_vs_onnx_python": {
+        "n_a": 9,
+        "n_b": 9,
+        "matched": 9,
+        "mean_mask_iou": 0.9984,
+        "mean_abs_conf_diff": 0.0003,
+        "max_abs_conf_diff": 0.001,
+        "classes_a": [
+          1
+        ],
+        "classes_b": [
+          1
+        ]
+      },
+      "onnx_python_vs_ultralytics": {
+        "n_a": 9,
+        "n_b": 9,
+        "matched": 9,
+        "mean_mask_iou": 0.9969,
+        "mean_abs_conf_diff": 0.0003,
+        "max_abs_conf_diff": 0.0006,
+        "classes_a": [
+          1
+        ],
+        "classes_b": [
+          1
+        ]
+      },
+      "app_timing_ms": {
+        "tensorMs": 5.4,
+        "inferMs": 115.7,
+        "postMs": 0.6,
+        "preMs": 7.2,
+        "drawMs": 0.5,
+        "totalMs": 124.3
+      },
+      "app_vs_studio_annotations": {
+        "n_a": 9,
+        "n_b": 9,
+        "matched": 9,
+        "mean_mask_iou": 0.9973,
+        "mean_abs_conf_diff": 0.0004,
+        "max_abs_conf_diff": 0.0009,
+        "classes_a": [
+          1
+        ],
+        "classes_b": [
+          1
+        ]
+      },
+      "pass": true
+    },
+    "rust_1.jpg": {
+      "image": "rust_1.jpg",
+      "source_image": "fdaecc2c-c48c-447d-9cdc-5d52efdc979a___FREC_C.Rust 3858.JPG",
+      "true_spots": 15,
+      "counts": {
+        "ultralytics_pt": 15,
+        "onnx_python": 15,
+        "app_browser": 15,
+        "studio_annotations": 15
+      },
+      "app_vs_ultralytics": {
+        "n_a": 15,
+        "n_b": 15,
+        "matched": 15,
+        "mean_mask_iou": 0.9847,
+        "mean_abs_conf_diff": 0.0025,
+        "max_abs_conf_diff": 0.0079,
+        "classes_a": [
+          2
+        ],
+        "classes_b": [
+          2
+        ]
+      },
+      "app_vs_onnx_python": {
+        "n_a": 15,
+        "n_b": 15,
+        "matched": 15,
+        "mean_mask_iou": 0.9872,
+        "mean_abs_conf_diff": 0.0022,
+        "max_abs_conf_diff": 0.0071,
+        "classes_a": [
+          2
+        ],
+        "classes_b": [
+          2
+        ]
+      },
+      "onnx_python_vs_ultralytics": {
+        "n_a": 15,
+        "n_b": 15,
+        "matched": 15,
+        "mean_mask_iou": 0.9974,
+        "mean_abs_conf_diff": 0.0004,
+        "max_abs_conf_diff": 0.0018,
+        "classes_a": [
+          2
+        ],
+        "classes_b": [
+          2
+        ]
+      },
+      "app_timing_ms": {
+        "tensorMs": 6.0,
+        "inferMs": 103.6,
+        "postMs": 0.4,
+        "preMs": 8.1,
+        "drawMs": 1.0,
+        "totalMs": 113.5
+      },
+      "app_vs_studio_annotations": {
+        "n_a": 15,
+        "n_b": 15,
+        "matched": 15,
+        "mean_mask_iou": 0.9848,
+        "mean_abs_conf_diff": 0.0026,
+        "max_abs_conf_diff": 0.0079,
+        "classes_a": [
+          2
+        ],
+        "classes_b": [
+          2
+        ]
+      },
+      "pass": true
+    },
+    "scab_2.jpg": {
+      "image": "scab_2.jpg",
+      "source_image": "2c89ceaf-748c-4371-80d0-d01855f04a92___FREC_Scab 2962.JPG",
+      "true_spots": 7,
+      "counts": {
+        "ultralytics_pt": 6,
+        "onnx_python": 6,
+        "app_browser": 6,
+        "studio_annotations": 6
+      },
+      "app_vs_ultralytics": {
+        "n_a": 6,
+        "n_b": 6,
+        "matched": 6,
+        "mean_mask_iou": 0.9943,
+        "mean_abs_conf_diff": 0.0013,
+        "max_abs_conf_diff": 0.0032,
+        "classes_a": [
+          0
+        ],
+        "classes_b": [
+          0
+        ]
+      },
+      "app_vs_onnx_python": {
+        "n_a": 6,
+        "n_b": 6,
+        "matched": 6,
+        "mean_mask_iou": 0.992,
+        "mean_abs_conf_diff": 0.0012,
+        "max_abs_conf_diff": 0.0024,
+        "classes_a": [
+          0
+        ],
+        "classes_b": [
+          0
+        ]
+      },
+      "onnx_python_vs_ultralytics": {
+        "n_a": 6,
+        "n_b": 6,
+        "matched": 6,
+        "mean_mask_iou": 0.9887,
+        "mean_abs_conf_diff": 0.0004,
+        "max_abs_conf_diff": 0.0007,
+        "classes_a": [
+          0
+        ],
+        "classes_b": [
+          0
+        ]
+      },
+      "app_timing_ms": {
+        "tensorMs": 5.4,
+        "inferMs": 101.1,
+        "postMs": 0.3,
+        "preMs": 7.8,
+        "drawMs": 0.7,
+        "totalMs": 110.3
+      },
+      "app_vs_studio_annotations": {
+        "n_a": 6,
+        "n_b": 6,
+        "matched": 6,
+        "mean_mask_iou": 0.9943,
+        "mean_abs_conf_diff": 0.0012,
+        "max_abs_conf_diff": 0.0027,
+        "classes_a": [
+          0
+        ],
+        "classes_b": [
+          0
+        ]
+      },
+      "pass": true
+    },
+    "black_rot_2.jpg": {
+      "image": "black_rot_2.jpg",
+      "source_image": "0139bc6d-391c-4fd1-bcae-cc74dabfddd7___JR_FrgE.S 2734.JPG",
+      "true_spots": 4,
+      "counts": {
+        "ultralytics_pt": 5,
+        "onnx_python": 5,
+        "app_browser": 5,
+        "studio_annotations": 5
+      },
+      "app_vs_ultralytics": {
+        "n_a": 5,
+        "n_b": 5,
+        "matched": 5,
+        "mean_mask_iou": 0.9736,
+        "mean_abs_conf_diff": 0.0018,
+        "max_abs_conf_diff": 0.0048,
+        "classes_a": [
+          1
+        ],
+        "classes_b": [
+          1
+        ]
+      },
+      "app_vs_onnx_python": {
+        "n_a": 5,
+        "n_b": 5,
+        "matched": 5,
+        "mean_mask_iou": 0.9994,
+        "mean_abs_conf_diff": 0.0018,
+        "max_abs_conf_diff": 0.0042,
+        "classes_a": [
+          1
+        ],
+        "classes_b": [
+          1
+        ]
+      },
+      "onnx_python_vs_ultralytics": {
+        "n_a": 5,
+        "n_b": 5,
+        "matched": 5,
+        "mean_mask_iou": 0.9742,
+        "mean_abs_conf_diff": 0.0004,
+        "max_abs_conf_diff": 0.0009,
+        "classes_a": [
+          1
+        ],
+        "classes_b": [
+          1
+        ]
+      },
+      "app_timing_ms": {
+        "tensorMs": 5.6,
+        "inferMs": 100.8,
+        "postMs": 0.3,
+        "preMs": 7.6,
+        "drawMs": 0.4,
+        "totalMs": 109.4
+      },
+      "app_vs_studio_annotations": {
+        "n_a": 5,
+        "n_b": 5,
+        "matched": 5,
+        "mean_mask_iou": 0.9736,
+        "mean_abs_conf_diff": 0.0018,
+        "max_abs_conf_diff": 0.0046,
+        "classes_a": [
+          1
+        ],
+        "classes_b": [
+          1
+        ]
+      },
+      "pass": true
+    }
+  }
+}
