@@ -1,0 +1,44 @@
+[
+  {
+    "file": "healthy_1.jpg",
+    "label": "Healthy",
+    "truth": "healthy",
+    "true_spots": 0,
+    "source": "0098dbd9-286a-4d6a-bf4b-5459d66f88c0___RS_HL 5776.JPG"
+  },
+  {
+    "file": "scab_1.jpg",
+    "label": "Apple scab",
+    "truth": "apple_scab",
+    "true_spots": 11,
+    "source": "6639559d-7af6-40b0-9677-a8dcfe036435___FREC_Scab 3342.JPG"
+  },
+  {
+    "file": "black_rot_1.jpg",
+    "label": "Black rot",
+    "truth": "black_rot",
+    "true_spots": 10,
+    "source": "497e0a24-9a4e-4ace-8aa3-d60751b03abe___JR_FrgE.S 8794.JPG"
+  },
+  {
+    "file": "rust_1.jpg",
+    "label": "Cedar apple rust",
+    "truth": "spot",
+    "true_spots": 15,
+    "source": "fdaecc2c-c48c-447d-9cdc-5d52efdc979a___FREC_C.Rust 3858.JPG"
+  },
+  {
+    "file": "scab_2.jpg",
+    "label": "Apple scab 2",
+    "truth": "apple_scab",
+    "true_spots": 7,
+    "source": "2c89ceaf-748c-4371-80d0-d01855f04a92___FREC_Scab 2962.JPG"
+  },
+  {
+    "file": "black_rot_2.jpg",
+    "label": "Black rot 2",
+    "truth": "black_rot",
+    "true_spots": 4,
+    "source": "0139bc6d-391c-4fd1-bcae-cc74dabfddd7___JR_FrgE.S 2734.JPG"
+  }
+]

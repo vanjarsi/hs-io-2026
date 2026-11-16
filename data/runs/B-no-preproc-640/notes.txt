@@ -1,0 +1,1 @@
+thejan's 'B (no preproc)' v3: yolo11n-seg, 20 epochs, imgsz 640, batch 16, no preprocessing. Training run #31, inference run #35 (fixed test/images path).

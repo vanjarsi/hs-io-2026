@@ -1,0 +1,9 @@
+{
+  "_comment": "Display names and colours per class name, copied into model/config.json at export. Colours are from the Okabe-Ito colourblind-safe palette. Classes not listed here get their raw name and the next palette colour.",
+  "classes": {
+    "apple_scab": { "label": "Apple scab", "color": "#56B4E9" },
+    "black_rot": { "label": "Black rot", "color": "#CC79A7" },
+    "spot": { "label": "Cedar apple rust", "color": "#E69F00" }
+  },
+  "palette": ["#56B4E9", "#CC79A7", "#E69F00", "#F0E442", "#0072B2", "#D55E00", "#FFFFFF"]
+}

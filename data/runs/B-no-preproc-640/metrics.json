@@ -1,0 +1,24 @@
+{
+    "task": "segment",
+    "framework": "yolo",
+    "metrics": {
+        "metrics/mAP50(B)": 0.8450357825384872,
+        "metrics/mAP50-95(B)": 0.48159186426822126,
+        "metrics/mAP50(M)": 0.7437622864290123,
+        "metrics/mAP50-95(M)": 0.34198136458956885
+    },
+    "metadata": {
+        "model": "yolo11n-seg.pt",
+        "dataset": "/job/dataset/data.yaml",
+        "output_path": "/job/output/segment/leaf_disease_train",
+        "epochs": 20,
+        "imgsz": 640,
+        "batch": 16,
+        "lr0": 0.01,
+        "device": "cuda",
+        "optimizer": "auto",
+        "best_weights": "/job/output/segment/leaf_disease_train/weights/best.pt",
+        "last_weights": "/job/output/segment/leaf_disease_train/weights/last.pt",
+        "timestamp": "2026-11-15T16:31:43.173449"
+    }
+}
